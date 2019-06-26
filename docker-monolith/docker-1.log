@@ -1,0 +1,15 @@
+REPOSITORY                             TAG                 IMAGE ID            CREATED              SIZE
+Laconty/ubuntu-tmp-file               latest              72ba5e5bc0c3        35 seconds ago       1.84kB
+<none>                                 <none>              5dd35b79bd7d        About a minute ago   1.84kB
+registry.yandex.net/crypta/aura/back   mtest               86314350ffee        6 days ago           554MB
+<none>                                 <none>              21ba226f4b4b        3 weeks ago          1.37GB
+<none>                                 <none>              db06888c90a6        3 weeks ago          896MB
+<none>                                 <none>              730b11d5c8dd        3 weeks ago          1.27GB
+fund-dev_backend                       latest              116a438fe297        3 weeks ago          1.27GB
+<none>                                 <none>              222b25ceb0db        3 weeks ago          1.27GB
+fund-dev_transactions                  latest              99a57b271db6        3 weeks ago          1.28GB
+redis                                  5.0                 d3e3588af517        5 weeks ago          95MB
+postgres                               10                  57f72dd0497d        6 weeks ago          230MB
+node                                   8                   a5c31320f223        6 weeks ago          895MB
+hello-world                            latest              fce289e99eb9        5 months ago         1.84kB
+registry.yandex.net/ubuntu             trusty              38fd977827a0        2 years ago          306MB
