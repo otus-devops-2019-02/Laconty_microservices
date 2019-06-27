@@ -15,3 +15,10 @@ Laconty microservices repository
 - Запустил docker container в облаке
 - Использовал gcp провайдер для docker-machine
 - Залил собственный docker-image на docker-hub registry
+
+## Задание 14
+#### Docker-3
+
+- Собрал reddit app из разных образов
+- Запустил разные образы reddit как микросервисы
+- Использовал docker bridge-network
