@@ -22,3 +22,11 @@ Laconty microservices repository
 - Собрал reddit app из разных образов
 - Запустил разные образы reddit как микросервисы
 - Использовал docker bridge-network
+
+## Задание 15
+#### Docker-4
+
+- Запустил разные docker images из прошлого урока с помощью docker-compose.yml
+- Использовал environment variables для кастомизации docker-compose
+- Задал имя(COMPOSE_PROJECT_NAME)
+- Поработал с разными docker network
