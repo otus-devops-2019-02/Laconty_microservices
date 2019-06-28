@@ -30,3 +30,6 @@ Laconty microservices repository
 - Использовал environment variables для кастомизации docker-compose
 - Задал имя(COMPOSE_PROJECT_NAME)
 - Поработал с разными docker network
+Ответ на вопрос дз:
+Префикс по умолчанию является директория в которой находится файл docker-compose.yml
+Чтобы изменить префикс необходимо указать env variable COMPOSE_PROJECT_NAME или аргументов -p при вызове docker-compose 
