@@ -32,4 +32,14 @@ Laconty microservices repository
 - Поработал с разными docker network
 Ответ на вопрос дз:
 Префикс по умолчанию является директория в которой находится файл docker-compose.yml
-Чтобы изменить префикс необходимо указать env variable COMPOSE_PROJECT_NAME или аргументов -p при вызове docker-compose 
+Чтобы изменить префикс необходимо указать env variable COMPOSE_PROJECT_NAME или аргументов -p при вызове docker-compose
+
+
+## Задание 16
+#### Gitlab-1
+
+- Запустил gcp инстанс,
+- На инстансе скачал докер
+- Запустил gitlab с помощью docker-compose
+- Настроил CI скрипты на каждый коммит в гитлабе
+- Создал CI pipeline 
