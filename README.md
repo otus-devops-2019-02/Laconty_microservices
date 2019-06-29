@@ -42,4 +42,13 @@ Laconty microservices repository
 - На инстансе скачал докер
 - Запустил gitlab с помощью docker-compose
 - Настроил CI скрипты на каждый коммит в гитлабе
-- Создал CI pipeline 
+- Создал CI pipeline
+
+## Задание 17
+#### Gitlab-1
+
+- Запустил gcp инстанс,
+- На инстансе скачал докер
+- Запустил gitlab с помощью docker-compose
+- Настроил CI скрипты на каждый коммит в гитлабе
+- Создал CI pipeline
