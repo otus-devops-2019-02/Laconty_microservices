@@ -45,10 +45,8 @@ Laconty microservices repository
 - Создал CI pipeline
 
 ## Задание 17
-#### Gitlab-1
+#### Monitoring-1
 
-- Запустил gcp инстанс,
-- На инстансе скачал докер
-- Запустил gitlab с помощью docker-compose
-- Настроил CI скрипты на каждый коммит в гитлабе
-- Создал CI pipeline
+Ссылка на мой докер хаб https://hub.docker.com/u/laconty
+- Запустил prometheus в docker container
+- Собирал логи из запущенных сервисов с помощью Prometheus
