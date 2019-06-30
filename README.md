@@ -50,3 +50,17 @@ Laconty microservices repository
 Ссылка на мой докер хаб https://hub.docker.com/u/laconty
 - Запустил prometheus в docker container
 - Собирал логи из запущенных сервисов с помощью Prometheus
+
+## Задание 18
+#### Monitoring-2
+
+Ссылка на мой докер хаб https://hub.docker.com/u/laconty
+
+- Запустил node-exporter для мониторинга host
+- Запустил cadvisor для мониторинга запущенных контейнеров на хосте
+- Запустил grafana для отображения логов из prometheus
+- Создал dashboard grafana для отображения системных логов, состояния сервисов, и метрики бизнес приложений
+- Создал несколько panel для dashboard в grafana для отображения нужных метрик
+- Запустил alertmanager для prometheus
+- Настроил правило для алертов в alertmanager
+- Интегрировал оповещения в слаке для alertmanager
