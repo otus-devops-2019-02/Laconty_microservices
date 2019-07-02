@@ -2,19 +2,37 @@ version: '3'
 services:
   fluentd:
     build:
-      ./fluentd
+      ../logging/fluentd
     ports:
-      - '24224:24224'
-      - '24224:24224/udp'
+      - "24224:24224"
+      - "24224:24224/udp"
+    environment:
+      - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
 
   elasticsearch:
-    image: elasticsearch
+    image: elasticsearch:5.6
     expose:
       - 9200
     ports:
       - "9200:9200"
+    environment:
+      - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
 
   kibana:
-    image: kibana
+    image: kibana:5.6
     ports:
       - "5601:5601"
+    environment:
+      - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
+
+  zipkin:
+    image: openzipkin/zipkin
+    ports:
+      - "9411:9411"
+    networks:
+     - front_net
+     - back_net
+
+networks:
+  back_net:
+  front_net:

@@ -14,6 +14,11 @@ services:
       - 9292:${REDDIT_PORT}/tcp
     networks:
       - front_net
+    logging:
+      driver: "fluentd"
+      options:
+        fluentd-address: localhost:24224
+        tag: service.ui
 
   post:
     # build: ./post-py
@@ -21,6 +26,12 @@ services:
     networks:
       - back_net
       - front_net
+    logging:
+      driver: "fluentd"
+      options:
+        fluentd-address: localhost:24224
+        tag: service.post
+
 
   comment:
     # build: ./comment
