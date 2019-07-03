@@ -64,3 +64,12 @@ Laconty microservices repository
 - Запустил alertmanager для prometheus
 - Настроил правило для алертов в alertmanager
 - Интегрировал оповещения в слаке для alertmanager
+
+## Задание 19
+#### Logging-1
+
+Ссылка на мой докер хаб https://hub.docker.com/u/laconty
+
+- Запустил через docker fluentd для агрегации логов
+- Запустил через docker kibana и elasticsearch поиска логов
+- Использовал zipking для трейсинга
