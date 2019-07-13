@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: post-deployment
+spec:
+  replicas: 1
+  # Указатель на то, какие поды нужно поддерживать в нужном количестве
+  selector:
+    matchLabels:
+      app: post
+  template:
+    metadata:
+      name: post-pod
+      labels:
+        app: post
+    spec:
+      containers:
+        - image: laconty/post
+          name: post
