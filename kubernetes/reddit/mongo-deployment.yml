@@ -1,5 +1,5 @@
 ---
-apiVersion: apps/v1beta2
+apiVersion: v1
 kind: Deployment
 metadata:
   name: mongo
@@ -26,11 +26,9 @@ spec:
       containers:
         - image: mongo:3.2
           name: mongo
-          # Target to mount in container(not in Pod)
           volumeMounts:
             - name: mongo-persistent-storage
               mountPath: /data/db
-          # Associated volumes with Pods
       volumes:
         - name: mongo-persistent-storage
           emptyDir: {}
