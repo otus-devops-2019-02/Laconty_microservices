@@ -73,3 +73,10 @@ Laconty microservices repository
 - Запустил через docker fluentd для агрегации логов
 - Запустил через docker kibana и elasticsearch поиска логов
 - Использовал zipking для трейсинга
+
+## Задание 21
+#### Kubernetes-2
+
+- Развернуть локальное окружение для работы с Kubernetes
+- Развернуть Kubernetes в GKE
+- Запустить reddit приложение в Kubernetes
