@@ -80,3 +80,9 @@ Laconty microservices repository
 - Развернуть локальное окружение для работы с Kubernetes
 - Развернуть Kubernetes в GKE
 - Запустить reddit приложение в Kubernetes
+
+## Задание 22
+#### Kubernetes-3
+
+- Создал и использовал PersistentVoumes, PersistentVolumeClaims, StorageClass, Ingress kubernetes объекты
+- Управлял Ingress сетью, добавил ssl для балансировщика
