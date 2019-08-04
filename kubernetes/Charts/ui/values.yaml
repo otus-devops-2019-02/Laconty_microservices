@@ -1,0 +1,12 @@
+service:
+  internalPort: 9292
+  externalPort: 9292
+
+image:
+  repository: laconty
+  tag: logging
+
+postHost:
+postPort:
+commentHost:
+commentPort:
