@@ -86,3 +86,14 @@ Laconty microservices repository
 
 - Создал и использовал PersistentVoumes, PersistentVolumeClaims, StorageClass, Ingress kubernetes объекты
 - Управлял Ingress сетью, добавил ssl для балансировщика
+
+
+## Задание 23
+#### kubernetes-4
+- Составил Helm Chart'ы для компонентов (ui, post, comment), взял готовый Chart с MongoDB. Успешно протестировал работу Reddit.
+- Поднял дополнительную ноду (bigpool) в GCP
+- Поднял GitLab используя готовый Chart
+- Создал в GitLab группу и отдельный проект для каждого из компонентов.
+- Запушил исходники в репы.
+- Добавил .gitlab-ci для каждого проекта
+- Успешно протестировал работу CI/CD для каждого проекта
