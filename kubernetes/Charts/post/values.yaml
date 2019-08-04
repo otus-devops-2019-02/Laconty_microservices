@@ -1,9 +1,0 @@
-service:
-  internalPort: 5000
-  externalPort: 5000
-
-image:
-  repository: laconty/post
-  tag: logging
-
-databaseHost:
